@@ -1,0 +1,24 @@
+class PassDataToProduct {
+  final String title;
+  final int productId;
+  final String imagePath;
+  final String price;
+  final String oldPrice;
+  final String offer;
+
+  PassDataToProduct(this.title, this.productId, this.imagePath, this.price,
+      this.oldPrice, this.offer);
+}
+
+
+class PassDataToProduct2 {
+  final String title;
+  final int productId;
+  final String imagePath;
+  final String price;
+  final String oldPrice;
+  final String offer;
+
+  PassDataToProduct2(this.title, this.productId, this.imagePath, this.price,
+      this.oldPrice, this.offer);
+}
